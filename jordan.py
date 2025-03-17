@@ -39,10 +39,40 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 st.header("🔍 Key Insights")
 st.markdown(
     """
-    xxx
+    #### **Jordan Mendes Correia | High-Work-Rate Defensive Midfielder**
+    
+    **🌟 Overview**
+    - A **hard-working, physically dominant defensive midfielder** who excels in ball recovery.
+    - Strong tactical awareness and pressing intensity, making him a key presence in midfield.
+    - **Best suited as a No.6 (holding midfielder) or box-to-box No.8** in a high-intensity system.
+
+    ##### **🧠 Personality & Mentality**
+    - **Tactically disciplined**, ensuring defensive structure and stability.
+    - **Resilient under pressure**, making him reliable in defensive transitions.
+
+
+    ##### **🎯 Football Profile**
+    - **Defensive Strengths:**
+      - **Exceptional in tackles & interceptions**, winning key midfield battles.
+      - **Press-resistant**, allowing him to break opposition pressure effectively.
+      - **High defensive actions OBV**, making him a proactive ball-winner.
+    
+    - **Physical & Athletic Qualities:**
+      - **Elite stamina & endurance**, covering over **12,000m per game**.
+      - **Strong acceleration & pressing ability**, making him effective in high-energy systems.
+      - **Good speed (29.7 km/h max)**, useful in transitions and counter-pressing.
+
+    - **Areas for Development:**
+      - **Improve progressive passing & vision** to impact possession phases more effectively.
+      - **Enhance final-third contributions** to add more attacking output.
+
+    ##### **🚀 Future Potential**
+    - **Currently a solid defensive midfielder**, with room to evolve into a **complete No.6 or box-to-box midfielder**.
+    - **A move to Ligue 2 or a top-tier National team** could be the next logical step if he refines his technical skills.
+
+    ✅ **Jordan is a high-intensity defensive midfielder with excellent ball-winning skills and endurance. If he improves his offensive contributions, he could become a top-level midfield anchor.**
     """
 )
-
 # Define the WhatsApp number (include country code, no '+' sign)
 whatsapp_number = "33771730001"  # Example: +33 for France
 
