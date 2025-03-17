@@ -39,26 +39,7 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 st.header("🔍 Key Insights")
 st.markdown(
     """
-    **Samy Baghdadi** is a **dynamic and versatile forward** who excels in **pressing, link-up play, and goal-scoring movements**.  
-    His ability to combine **off-the-ball work rate** with **attacking efficiency** makes him a strong asset for teams looking to enhance their forward line.  
-
-    ##### **Personality & Mentality 🏃‍♂️💨**  
-    - **High work rate** – presses aggressively and contributes defensively.  
-    - **Resilient and adaptable** – has played in different leagues and systems.  
-    - **Team-oriented mindset** – involved in both build-up play and goal-scoring opportunities.  
-
-    ##### **Football Profile 🎯**  
-    - **Pressing & Defensive Contribution:** Strong (high possession-adjusted pressures).  
-    - **Link-Up Play & Passing:** Effective in combination play, supports build-up.  
-    - **Finishing & xG Output:** Good shot selection but **room for improvement in conversion rate**.  
-    - **Speed & Movement:** Agile, quick in transition, and makes intelligent runs behind defenses.  
-
-    ##### **Best Suited For**  
-    ✅ **High-intensity pressing teams** (Saudi Pro League , or MLS).  
-    ✅ **Teams that play direct attacking football**, focusing on transition speed.  
-    ✅ **Clubs looking for a versatile forward** who can play as a **striker or wide forward**.  
-
-    **Samy Baghdadi is at the perfect moment to take a step up**, and his skill set makes him an **ideal candidate for an ambitious club** in a top-tier or competitive second-tier league. 🚀  
+    xxx
     """
 )
 
@@ -66,7 +47,7 @@ st.markdown(
 whatsapp_number = "33771730001"  # Example: +33 for France
 
 # Message to send
-message = "Hello, I am interested in Samy Baghdadi . Can we discuss further?"
+message = "Hello, I am interested in Jordan Mendes. Can we discuss further?"
 
 # Encode message for URL
 encoded_message = urllib.parse.quote(message)
@@ -82,140 +63,143 @@ if st.button("📲 Contact Sport Director"):
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Vertical Display with Expanders
-with st.expander("👤 Player Career | Looking for an International Project"):
+with st.expander("👤 Player Career | Need a next for his development"):
     image = load_image_from_github("fiche.png")
     if image:
         st.image(image, use_container_width=True)
     
-    st.markdown(
-        """
-        ### **Why It’s Time for Him to Play Abroad Again**  
-
-        #### **🏆 Peak Years (26-29) Age Bracket)**  
-        - At **27 years old**, he is at his **physical and technical peak**.  
-        - If he wants a **bigger challenge**, now is the time before his prime years fade.  
-
-        #### **🇫🇷 Proven Performance in France**  
-        - He has performed well in the **Championnat National (3rd tier) and Ligue 2**.  
-        - His **goal-scoring ability and versatility** (playing as a striker and winger) make him attractive for foreign clubs.  
-
-        #### **📈 Need for Higher-Level Competition**  
-        - Staying in **France’s 3rd division** limits exposure.  
-        - Moving to a **stronger league (Belgium, Netherlands, or Portugal)** could help him elevate his game.  
-
-
-        #### **💰 Increasing Market Value & Financial Benefits**  
-        - A move abroad could significantly **boost his salary**. 
-        - Many clubs outside France (**Middle East, MLS, or Belgium**) offer **better financial incentives**.  
-        """
-    )
-
+    # Career Analysis
+    st.write("""
+    ### 🛤 **Career Path Analysis:**
+    - **Youth Development:** Trained at **FC Versailles' academy**, progressing through U19 and B teams.
+    - **First-Team Integration:** Promoted to **FC Versailles first team in 2023**, showing steady development.
+    - **Playing Position:** **Defensive midfielder**, with secondary capabilities as a **central midfielder**.
+    
+    
+    - **Future Progression:**
+      - Needs to **increase first-team minutes** to gain experience at National level.
+      - Could **attract Ligue 2 or high-tier National teams** if he improves his consistency and physical presence.
+    
+    ✅ **Jordan has made steady progress through the ranks at FC Versailles. His next step is proving himself as a regular starter in National before targeting a move to a higher league.**
+    """)
 with st.expander("📍 Position Played | Advanced N°10 or False 9"):
     image = load_image_from_github("position.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Samy is a complete center offesnive player, he can play as number 10, contribute the game with his technical skills and passing habilities. He is also really good to play second striker, with high quality to move, reach the golden area and connect with striker. His quality of shooting shows that he can play as a striker")
+    # Positional Analysis
+    st.write("""
+    ### **Jordan Mendes Correia | Deep-Lying Midfielder**
+    
+    #### **📊 Positioning & Role**
+    - **Primary Position:** Right Defensive Midfielder (RDM) - **4.5 appearances**
+    - **Secondary Roles:** Left Defensive Midfielder (LDM) & Central Midfielder (LCM/RCM)
+    - **Tactical Role:** Positioned as a **holding midfielder**, supporting both the defensive line and midfield transitions.
 
-with st.expander("⏳ Minutes played | A captain - Technical leadership"):
+
+    ✅ **Jordan is a structured, intelligent midfielder who thrives in defensive midfield roles. With better passing penetration and physical intensity, he can develop into a key No.6 at a higher level.**
+    """)
+with st.expander("⏳ Minutes played | Need to get consistency in minutes played"):
     image = load_image_from_github("minutes_played.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Samy become a more and more important player within the team. He is now our captain.")
+    # Performance Analysis
+    st.write("""
+    ### **📊 Match Involvement:**
+    - **Appearances:** Featured in multiple games but with limited full-match performances.
+    - **Substitution Pattern:** Frequently started but was often subbed off before full-time.
+    - **Late-Season Drop:** Minutes decreased significantly in early 2025, possibly due to squad rotation or fitness concerns.
+    - **Unused or Did Not Play Matches:** A mix of being on the bench or left out of the squad entirely.
 
-with st.expander("🛡 Player Profile | Mobile & technical finisher"):
+
+    ✅ **Jordan is gaining first-team experience but needs more consistency to cement his place as a key starter.**
+    """)
+
+with st.expander("🛡 Player Profile | Defensive Midfield Enforcer"):
     image = load_image_from_github("leaugue_Comparison.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Samy is an offensive-minded forward or attacking midfielder who is highly effective in both goal-scoring and playmaking. His ability to progress the ball, make key passes, and pressure the opposition makes him an asset in attack. His playing style suggests he thrives in a possession-based, attacking team where he can receive the ball in advanced areas and contribute to finishing or assisting.")
-
-
-with st.expander("📈 Performance Progression | more efficient and well-rounded attacker"):
-    image = load_image_from_github("progression.png")
-    if image:
-            st.image(image, use_container_width=True)
-        
-    st.markdown(
-            """
-            This radar chart compares **Samy Baghdadi’s** performance across key metrics from the **2023/24 season (red)** to the **2024/25 season (blue)**.
+# Player profile analysis
+    st.write("""
+    ### **Jordan Mendes Correia | Defensive Midfield Enforcer**
     
-            ### **Overall Analysis**  
-            - **Samy has transformed into a more efficient and well-rounded attacker.**  
-            - His **goal contributions, playmaking, and attacking involvement** have all improved.  
-            - **Defensive contributions (pressing intensity) have dropped**, possibly due to a more advanced or specialized role.
-            """
-        )
-with st.expander("👥 Player Comparison | Samy Baghdadi vs. Jonathan David"):
-    image = load_image_from_github("radar.png")
-    if image:
-        st.image(image, use_container_width=True)
-    
-    st.markdown(
-        """
-        ### **Comparison: Samy Baghdadi vs. Jonathan David**  
-        This radar chart compares **Samy Baghdadi (red)** to **Jonathan David (blue)**, a **first-division striker** (Lille OSC, Ligue 1).  
-        The comparison provides insights into **how Samy stacks up against a proven top-flight forward**.
+    #### **🔍 Strengths:**
+    - **Defensive Awareness:** Excellent in **tackles and interceptions**, outperforming the league average.
+    - **1v1 Defensive Duels:** Strong ability to win **duels when dribbled past**, making him a reliable defensive presence.
+    - **Pressing & Pressure Resistance:** Above average in **pressures and defensive actions OBV**, helping the team recover possession effectively.
+    - **Physical & Aggressive Playstyle:** Frequently **wins fouls**, disrupting opposition play.
 
-        ### **📊 What This Means for Samy Baghdadi’s Development**  
-        🔹 **Samy is an effective pressing forward** with strong passing and build-up play.  
-        🔹 **However, to compete at the first-division level, he needs to improve:**  
+    #### **📉 Areas for Improvement:**
+    - **Passing Impact:** Below league average in **progressive passing and OBV**, limiting his ability to break lines.
+    - **Offensive Contributions:** Needs improvement in **open play xG assisted** and **dribble carry OBV** to support attacks more efficiently.
+    - **Turnovers:** Slightly higher than the league average, indicating that he sometimes loses possession in key areas.
 
-        - **xG and finishing ability** → Taking **higher-quality shots** and improving **conversion rate**.  
-        - **Touches in the box & off-ball movements** → Finding **better positions for scoring chances**.  
-        - **Dribbling and deep progressions** → Becoming **more dangerous in the final third**.  
+    #### **📊 Tactical Fit:**
+    - Best suited as a **No.6 (defensive midfielder)** in a **pressing system** where his ball-winning skills can shine.
+    - Could be utilized as a **box-to-box midfielder (No.8)** in a **double pivot**, provided he improves his passing range.
+    - Ideal for a **counter-attacking setup**, where he disrupts opposition play and quickly transitions the ball forward.
 
-        ### **🏆 Final Verdict: Ready for a Step Up?**  
-        ✅ **Samy has first-division potential**, but he must **refine his attacking efficiency** to match a top-tier forward like **Jonathan David**.  
-        ✅ A move to a **stronger league (Belgium, Netherlands, Portugal) or Ligue 2** could be the right transition before reaching the **top flight**.  
-        """
-    )
+    ### **🚀 Next Steps in Development:**
+    - **Improve progressive passing & transitions** to become a more complete deep-lying playmaker.
+    - **Reduce turnovers** by refining decision-making under pressure.
+    - **Enhance ball-carrying ability** to be more involved in build-up play.
+
+    ✅ **Jordan is a strong, defensively solid midfielder with great tackling and pressing ability. If he refines his passing and offensive impact, he could develop into a high-level midfield anchor.**
+    """)
 
 
 with st.expander("🏋️ Physical Performance | Global Athlete"):
     image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Complete athlete")
-
-with st.expander("🤕 Injury History | Samy"):
-    image = load_image_from_github("injuries.png")
-    if image:
-        st.image(image, use_container_width=True)
+    # Physical Profile Analysis
+    st.write("""
+    ### **Jordan Mendes Correia | Energetic & High-Work-Rate Midfielder**
     
-    st.markdown(
-        """
-        **Samy has been fortunate to avoid any long-term injuries and has never missed a match due to injury.**  
-        However, the performance team closely monitors his knee to ensure optimal condition and prevent potential issues.  
+    #### **📊 Key Physical Metrics:**
+    - **Total Distance Covered:** Averages **12,449 meters per game**, showcasing his endurance.
+    - **High-Speed Running (HSR 16-24 km/h):** **2,524 meters per game**, proving strong ability to maintain high-intensity efforts.
+    - **Sprints (>24 km/h):** Covers **263 meters per game**, showing short-burst acceleration ability.
+    - **Acceleration & Deceleration:**
+      - **41 high-intensity accelerations (>4m/s²)** per game.
+      - **27 decelerations per game**, showing good control in transitional play.
+    - **Max Speed (VMAX):** Peaks at **29.7 km/h**, indicating solid pace for a midfielder.
 
-        For this reason, we have implemented an **individualized plan** for him, which includes:
+    #### **🔍 Strengths:**
+    - **High stamina & endurance**, allowing him to cover large distances effectively.
+    - **Strong acceleration profile**, helping him press and recover quickly.
+    - **Efficient in high-intensity runs**, useful for counter-pressing and tracking back defensively.
+    - **Consistently involved in transitional phases**, making him a box-to-box style midfielder.
 
-        - **Training adaptation** to manage workload and reduce stress on the knee,  
-        - **Prevention strategies** such as targeted exercises and recovery protocols,  
-        - **Fitness development** to strengthen key areas and enhance durability.  
+    #### **📉 Areas for Improvement:**
+    - **Sprint explosiveness** can be improved to enhance quick transitions.
+    - **Deceleration control** can be refined to maintain stability in defensive recoveries.
+    - **Increase short-burst power** to improve pressing efficiency in tight areas.
 
-        This proactive approach helps Samy maintain peak performance while minimizing injury risks.
-        """
-    )
+    #### **📌 Tactical Fit:**
+    - Suited for a **high-energy pressing team** where his work rate and stamina are key.
+    - Can thrive in a **box-to-box (No.8) role** or as a **defensive midfielder (No.6)** in a high-intensity system.
+    - Ideal for **transition-based teams**, where his physical ability can shine in counter-attacks and recoveries.
 
+    ### **🚀 Next Steps in Development:**
+    - **Improve top-speed sprinting** to add dynamism to his offensive runs.
+    - **Enhance agility & quick turns** to optimize ball recoveries.
+    - **Increase acceleration efficiency** to maximize pressing impact.
+
+    ✅ **Jordan is a physically dominant midfielder with great endurance, pressing intensity, and work rate. If he enhances his explosiveness and decision-making under pressure, he could become an elite box-to-box midfielder.**
+    """)
+
+    
 with st.expander("⚖️ Weight Evolution | Professional player"):
     image = load_image_from_github("poids.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Monitoring body composition is key to performance optimization. Samy cares about his weight and body fat")
+    st.write("Monitoring body composition is key to performance optimization.Jordan show a good body composition")
 
-with st.expander("🔥 Personnality & Motivation | Real passion for football & competitor"):
-    image = load_image_from_github("Happiness.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Samy loves competition and fight for the win. He passionate about football and expect an interesting contract for his prime.")
-
-with st.expander("📊 Game Report"):
-    image = load_image_from_github("game_report.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Example of Game report, please contact Mathieu Feigean for more explanation or request.")
-
-
-
+# with st.expander("🔥 Personnality & Motivation | Real passion for football & competitor"):
+#     image = load_image_from_github("Happiness.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Samy loves competition and fight for the win. He passionate about football and expect an interesting contract for his prime.")
 
 
 
